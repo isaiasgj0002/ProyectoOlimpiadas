@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ProjectManager</string>
+    <string name="bienvenido_a_project_manager">Bienvenido a Project Manager</string>
+    <string name="inicia_sesion">Inicia sesión</string>
+    <string name="ingrese_su_correo">Ingrese su correo</string>
+    <string name="ingrese_su_password">Ingrese su contraseña</string>
+    <string name="mostrar_contrase_a">Mostrar contraseña</string>
+    <string name="acceder">Acceder</string>
+    <string name="no_tienes_cuenta_registrate">No tienes cuenta? Registrate</string>
+    <string name="registrate">Registrate</string>
+    <string name="ingrese_su_nombre">Ingrese su nombre\n</string>
+    <string name="ya_tienes_cuenta_accede">Ya tienes cuenta? Inicia sesión</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="lista_de_proyectos">Lista de proyectos</string>
+    <string name="crear_nuevo">Crear nuevo</string>
+    <string name="crear_proyecto_nuevo">Crear proyecto nuevo</string>
+    <string name="crear">Crear</string>
+    <string name="descripci_n_del_proyecto">Descripción del proyecto</string>
+    <string name="ubicaci_n_del_proyecto">Ubicación del proyecto</string>
+    <string name="nombre_del_proyecto">Nombre del proyecto</string>
+    <string name="fecha_de_inicio">Fecha de inicio</string>
+    <string name="fecha_de_finalizaci_n_prevista">Fecha de finalización prevista</string>
+    <string name="agregar_tarea">Agregar tarea</string>
+    <string name="creartarea">Crear nueva tarea</string>
+    <string name="titulo">Titulo de la tarea</string>
+    <string name="plazo">Plazo de ejecución</string>
+    <string name="finalizada">Finalizada</string>
+    <string name="nofinalizada">No finalizada</string>
+</resources>

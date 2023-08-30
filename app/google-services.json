@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394546884266",
+    "project_id": "projectmanager-7f7f4",
+    "storage_bucket": "projectmanager-7f7f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394546884266:android:f547fce45fe8e4187faad3",
+        "android_client_info": {
+          "package_name": "com.isaias.projectmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394546884266-mbbiddti4vjb3uc5pik83k6qpcaicp55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3tYXRTXAN7tLiDKm3iX13uGXhdu4UKF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394546884266-mbbiddti4vjb3uc5pik83k6qpcaicp55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NuevaTareaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/creartarea"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/txtnombre_tarea"
+            android:layout_width="match_parent"
+            android:hint="@string/titulo"
+            android:layout_height="48dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha_de_inicio"/>
+        <DatePicker
+            android:id="@+id/fechainicio_tarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/txtplazodeejecucion"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/plazo"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_finalizada"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/finalizada"/>
+
+            <RadioButton
+                android:id="@+id/rb_no_finalizada"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/nofinalizada"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnguardartarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agregar_tarea"/>
+    </LinearLayout>
+</ScrollView>
